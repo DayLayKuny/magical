@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+.purple-home1 {
+    font-size: 64px;
+    color: #6C00FF;
+    font-weight: 400;
+    font-family: "Inter";
+    margin: 50px 0;
+}
+
+.purple-home1 p {
+    margin: 10px 0;
+}
+
+.MAGIC {
+    background: linear-gradient(249deg, #6C00FF 90%, rgba(87, 0, 209, 0.42) 97%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.get-in-touch {
+    margin-top: 30px;
+    margin: 10px 0;
+}
+
+.home1 {
+    background-image: url(../../images/Home1.svg);
+    width: 600px;
+    height: 500px;
+}
+
+.p-with-img {
+    display: flex;
+    justify-content: center;
+}
+
+.main-part {
+    padding: 0 50px;
+}
+
+.magical-platform {
+    font-weight: 400;
+    font-family: "Inter";
+    font-size: 24px;
+    color: black;
+    padding-top: 40px;
+}
+
+.get-in-touch {
+    padding: 12px 40px;
+    border-radius: 5px;
+    background-color: #6C00FF;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Inter";
+    border: none;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.circles-item {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    box-shadow: 7px 3px 5px 0px #9448ff inset;
+    text-align: center;
+    transition: 1s;
+}
+
+.circles-item:hover {
+    box-shadow: 10px 5px 0px 0px #9448ff inset;
+}
+
+.lang-icons {
+    font-size: 50px;
+    margin: 25% 0;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    color: #6C00FF;
+}
+
+.who-we-are {
+    height: 700px;
+    background-color: #6C00FF;
+    margin: 50px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.home2 {
+    background-image: url(../../images/Home2.svg);
+    width: 600px;
+    height: 650px;
+    margin-right: 20px;
+}
+
+.who-we-text {
+    width: 500px;
+    margin: auto 50px auto 0;
+}
+
+.who-we-text p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+#Whowere {
+    font-weight: 700;
+    font-size: 35px;
+    padding: 40px 0;
+}
