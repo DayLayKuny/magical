@@ -15,9 +15,6 @@
     background-image: url(../../images/Logo.svg);
 }
 
-.services p {
-    margin-top: 20px;
-}
 
 .services {
     display: flex;
@@ -33,7 +30,7 @@
 }
 
 .arrow {
-    margin-top: 22px;
+    margin-top: 20px;
     cursor: pointer;
 }
 

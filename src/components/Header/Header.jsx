@@ -13,10 +13,9 @@ function Header() {
     <div className="all-header">
       <div className="magical-logo"></div>
       <div className="header-info">
-        <div className="services">
-          <p>Services</p>
+        <div className="services" onClick={toggleDropdown}>
+          <p>Services<MdKeyboardArrowDown className="arrow" /></p>
           <div className="all-dropdown">
-            <MdKeyboardArrowDown className="arrow" onClick={toggleDropdown} />
             {isOpen && (
                 <div className="dropdown-menu" >
                     <div>IT Consulting</div>
